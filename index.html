@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">How is that Pokémon?</h1>
+      <img
+        src="img/poke-shadow.png"
+        alt="pokemon shadow"
+        class="pokemon_shadow"
+      />
+    </header>
+    <main>
+      <div class="container">
+        <section class="left">
+          <input type="text" class="guess" />
+          <button class="btn check">Check!</button>
+        </section>
+
+        <section class="right">
+          <p class="message">Star guessing...</p>
+          <p class="label-score">Score: <span class="score">0</span></p>
+          <p class="label-highscore">
+            🥇 Highscore:<span class="highscore">0</span>
+          </p>
+        </section>
+      </div>
+
+      <div class="btn container">
+        <button class="btn start">Start the game!</button>
+        <button class="btn continue">Continue game</button>
+        <button class="btn reset">Reset game</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
