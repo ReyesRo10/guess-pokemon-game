@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.pokemon_shadow {
+.pokemon {
   width: 600px;
   height: 500px;
   display: block;
@@ -59,4 +59,8 @@
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
 }
